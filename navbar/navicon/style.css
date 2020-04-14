@@ -1,0 +1,72 @@
+:root {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+* {
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 4rem;
+  background-color: white;
+}
+
+.logo {
+  padding-left: 2rem;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+.navbar-nav {
+  float: right;
+  display: inline;
+  list-style: none;
+}
+
+.nav-item {
+  align-items: center;
+  display: inline;
+}
+
+.nav-link i {
+  margin: 15px;
+}
+
+.fas {
+  color: #000;
+}
+
+.fa-search {
+  border: 2px solid #000;
+  padding: 8px;
+  border-radius: 100%;
+}
+
+.fa-user {
+  border: 2px solid #000;
+  padding: 8px;
+  border-radius: 100%;
+}
+
+.nav-page {
+  width: 100vw;
+  height: 2rem;
+  background-color: salmon;
+}
+
+.nav-list {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav-list a {
+  margin: 0 20px;
+  align-items: center;
+}

@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #ed1c24;
+  --secodary-color: #ee3323;
+  --bg-color: #f2f2f7;
+  --text-primary: #8e8e90;
+  --text-secodary: #a4a4a6;
+}
+
+.collection{
+    width: 100%;
+    height: 318px;
+}
+
+.images img{
+    width: 157px;
+    height: 264px;
+    border-radius: 8px;
+}
+
+.item span{
+    background-color: grey;
+}
